@@ -1,0 +1,5 @@
+
+map.put(1,"_13FManagersPieChartView.fxml");
+map.put(2,"A-MarginalTaxView.fxml");
+map.put(3,"B-MarginalTaxView.fxml");
+map.put(4,"C-MarginalTaxView.fxml");

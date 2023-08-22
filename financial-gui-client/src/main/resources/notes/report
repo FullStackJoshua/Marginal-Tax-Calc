@@ -1,0 +1,41 @@
+--module-path C:\developer\___Fall2022\CST3613\javafx-sdk-19\lib --add-modules javafx.controls,javafx.fxml
+https://www.baeldung.com/java-junit-hamcrest-guide
+C:\Users\Istrike1st\Desktop\College or Bust\CST 3613 Development with Databases\javafx-sdk-17.0.6\lib
+
+--module-path C:\Users\Istrike1st\Desktop\javafx-sdk-17.0.6\lib --add-modules javafx.controls,javafx.fxml
+
+{
+    "size": 10,
+    "results": [
+        {
+            "id": "A100",
+            "stock": "AAPL",
+            "manager": "VANGUARD GROUP INC",
+            "reportDate": "2022-12-31T05:00:00.000+00:00",
+            "value": 1.66083084288E11,
+            "valueInBillions": 166.0830841,
+            "share": 1.278250496E9
+        }]
+
+}
+
+public class _13FManagers {
+    private int size;
+    private Object [] results;
+}
+
+public class _13FDetails {
+    private String id;
+    private String stock;
+    private String manager;
+    private Date reportDate;
+    private double value;
+    private float valueInBillions;
+    private double share;
+}
+
+
+        double total = 0;
+         for(var row : list){
+             total = total + row.getValueInBillions();
+         }
